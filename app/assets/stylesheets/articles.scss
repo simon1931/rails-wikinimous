@@ -8,9 +8,26 @@ body {
   padding: 0;
 }
 
+h1 {
+  text-align: center;
+  background-color: blueviolet;
+}
+
 .container {
   margin: 50px;
 
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: red;
+}
+
+.table-primary {
+  text-align: center;
 }
 
 a {

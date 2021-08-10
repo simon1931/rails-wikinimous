@@ -10,6 +10,12 @@
   </head>
 
   <body>
+    <header>
+      <h3><%= link_to 'The Articles', articles_path %></h3>
+      <span>
+        <%= link_to "New article", new_article_path%>
+      </span>
+    </header>
     <%= yield %>
   </body>
 </html>
